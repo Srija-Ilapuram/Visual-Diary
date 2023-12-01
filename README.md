@@ -1,9 +1,11 @@
 Visual Diary Project
 
 Project Description
+
 The Visual Diary project is a web-based application developed using the Angular framework and Firebase as its database and authentication server. The purpose of this visual diary is to provide users with an effective mode of diary entry, allowing them to write about their day and attach photos, videos, or audio files to each entry. The user interface is designed to resemble a book, providing a nostalgic feel to the diary-writing experience.
 
 Features
+
 User authentication through login credentials
 Dashboard for easy navigation
 Diary entry creation with the option to attach photos, videos, and audio files
@@ -11,26 +13,34 @@ Preview of past diary entries with attached memories
 Intuitive and attractive user interface resembling a book
 
 How to Install and Run the Project
+
 To install and run the Visual Diary project, follow these steps:
 
 Prerequisites
+
 NodeJS
 NPM Manager
 Angular
 
 Installation Steps
+
 Download the project repository as a zip folder.
 Extract the zip folder to your desired location.
 Open a terminal and navigate to the project folder.
-Setting Up Angular Project
-Create a new Angular project using the following command:
 
+Setting Up Angular Project
+
+Create a new Angular project using the following command:
 ng new your-project-name
+
 Copy the contents of the extracted src/app/components and src/app/services folders into the corresponding folders in your Angular project.
 
 Setting Up Server
+
 Create a new folder named server in your project directory.
+
 Copy the server.js file from the extracted src/server folder into the newly created server folder.
+
 Running the Application
 
 In the terminal, navigate to your Angular project directory.
@@ -41,6 +51,7 @@ Start the Angular application:
 ng serve
 
 Open a new terminal and navigate to the server folder.
+
 cd your-project-name/server
 
 Start the server:
